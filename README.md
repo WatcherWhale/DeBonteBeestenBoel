@@ -73,10 +73,13 @@ Soorten werknemers:
 
 * Animal Caretakers
     * Deze mensen houden zich bezig met de dieren te verzorgen.
+    * Kan niet partime werken
 * Cook & Baker
     * Deze mensen gaan samen met de kinderen van verse koeienmelk boter en slagroom maken, of gaan de kaas uit de kelder halen en opsmullen.
+    * Werken enkel partime in de voormiddag
 * Arts & Crafter
     * Met deze mensen gaan de kinderen 1001 dingen maken met wol en pauwen veren.
+    * Werken enkel partime in de namiddag
 
 ### 2. Maak een interface aan om zelf werknemers toe te voegen.
 
@@ -91,7 +94,7 @@ Elke soort activiteit kan ook maar een maximaal aantal kinderen bedienen en
 heeft een bepaalde duurtijd.
 
 * Animal Caretakers
-    * Dieren voederen (30 kinderen, 2 uur, maximaal 2 keer per dag)
+    * Dieren voederen (30 kinderen, 2 uur, maximaal 2 keer per dag) elke werknemer mag dit maar 1 keer per dag doen
     * Schapen scheren (10 kinderen, 2 uur, maximaal 1 keer per dag)
     * Diertjes aaien (30 kinderen, 2 uur)
 * Cook & Baker
@@ -173,19 +176,6 @@ algoritme.
 
 Bij het printen van objecten verwacht ik dat de `.ToString()` operator gebruikt wordt.
 
+Er wordt verwacht dat incorrecte consturctors worden, afgesloten op de correcte manier.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Bij verkeerde input dient het programma te crashen met een duidelijke exception.
